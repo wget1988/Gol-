@@ -41,4 +41,21 @@ func main() {
 		fmt.Printf("%c\n", c)
 	}
 
+	// go get -d github.com/ramya-rao-a/go-outline
+	// go get -d github.com/acroca/go-symbols
+	// go get -d github.com/mdempsky/gocode
+	// go get -d github.com/rogpeppe/godef
+	// go get -d github.com/zmb3/gogetdoc
+	// go get -d github.com/fatih.gomodifytags
+	// go get -d sourcegraph.com/sqs/goreturns
+	// go get -d github.com/cweill/gotests/...
+	// go get -d github.com/josharian/impl
+	// go get -d github.com/haya14busa/goplay/cmd/goplay
+	// go get -d github.com/uudashr/gopkgs/cmd/gopkgs
+	// go get -d  github,com/davidrgenni/reftools/cmd/filestruct
+	// go get -d github.com/alecthomas/gometalinter
+
+	//安装，将上述命令去掉-d
+	// gometalinter --install // 安装扩展
+
 }
