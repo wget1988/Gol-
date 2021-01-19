@@ -26,7 +26,7 @@ func main() {
 
 	fmt.Printf("%T\n", point1)
 
-	point = append(point1, []int(1, 2, 3, 4))
+	point = append(point1, []int{1, 2, 3, 4})
 	fmt.Println(point)
 	fmt.Println(point[0])
 	fmt.Println(point1[0][1])
